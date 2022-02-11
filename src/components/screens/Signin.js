@@ -10,7 +10,7 @@ const Signin = () => {
     const [password, setPassword] = useState("")
     const [email, setEmail] = useState("")
     const PostData = () =>{
-        fetch("/signin",{
+        fetch("https://instagramclone98.herokuapp.com/signin",{
             method:"post",
             headers:{
                 "Content-Type":"application/json"
